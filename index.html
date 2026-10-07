@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Euler Orbit Component</title>
+
+  <link rel="stylesheet" href="style.css" />
+   <link rel="stylesheet" href="layout.css" />
+
+  <!-- Elegant fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  >
+</head>
+
+<body>
+
+  <div id="header-container"></div>
+
+  <main class="page">
+    <!-- Euler Orbit Component -->
+    <section class="orbit-component" id="orbitComponent">
+
+      <canvas id="orbitCanvas"></canvas>
+
+      <div class="orbit-vignette"></div>
+
+      <div class="orbit-content">
+        <p class="orbit-kicker">Euler Motion Study</p>
+
+        <h2>
+          Every body moves<br />
+          in its own orbit.
+        </h2>
+
+        <p class="orbit-description">
+          A visual reflection on motion, balance, and the quiet harmony of celestial paths.
+        </p>
+      </div>
+
+      <!-- Quran 21:33 -->
+<div class="verse-card">
+  <p class="arabic">
+    وَهُوَ الَّذِي خَلَقَ اللَّيْلَ وَالنَّهَارَ وَالشَّمْسَ وَالْقَمَرَ ۖ كُلٌّ فِي فَلَكٍ يَسْبَحُونَ
+  </p>
+
+  <p class="translation">
+    “And He is the One Who created the night and the day, the sun and the moon—each travelling in an orbit.”
+  </p>
+
+  <p class="reference">
+    Qur’an 21:33
+  </p>
+</div>
+
+<!-- Quran 36:40 -->
+<div class="verse-card">
+  <p class="arabic">
+    لَا الشَّمْسُ يَنْبَغِي لَهَا أَنْ تُدْرِكَ الْقَمَرَ وَلَا اللَّيْلُ سَابِقُ النَّهَارِ ۚ وَكُلٌّ فِي فَلَكٍ يَسْبَحُونَ
+  </p>
+
+  <p class="translation">
+    “It is not for the sun to catch up with the moon, nor does the night outrun the day. Each is travelling in an orbit of their own.”
+  </p>
+
+  <p class="reference">
+    Qur’an 36:40
+  </p>
+</div>
+
+<!-- Quran 36:38 -->
+<div class="verse-card">
+  <p class="arabic">
+    وَالشَّمْسُ تَجْرِي لِمُسْتَقَرٍّ لَهَا
+  </p>
+
+  <p class="translation">
+    “And the sun runs on its fixed course for a term appointed.”
+  </p>
+
+  <p class="reference">
+    Qur’an 36:38
+  </p>
+</div>
+
+<!-- Quran 39:5 -->
+<div class="verse-card">
+  <p class="arabic">
+    خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ بِالْحَقِّ ۖ يُكَوِّرُ اللَّيْلَ عَلَى النَّهَارِ وَيُكَوِّرُ النَّهَارَ عَلَى اللَّيْلِ ۖ وَسَخَّرَ الشَّمْسَ وَالْقَمَرَ ۖ كُلٌّ يَجْرِي لِأَجَلٍ مُسَمًّى
+  </p>
+
+  <p class="translation">
+    “He created the heavens and the earth in truth. He wraps the night around the day and the day around the night, and He has subjected the sun and the moon, each running its course for an appointed term.”
+  </p>
+
+  <p class="reference">
+    Qur’an 39:5
+  </p>
+</div>
+
+<!-- Quran 55:5 -->
+<div class="verse-card">
+  <p class="arabic">
+    الشَّمْسُ وَالْقَمَرُ بِحُسْبَانٍ
+  </p>
+
+  <p class="translation">
+    “The sun and the moon move according to precise calculation.”
+  </p>
+
+  <p class="reference">
+    Qur’an 55:5
+  </p>
+</div>
+
+      <div class="step-label">
+        <span></span>
+        Motion calculated step by step
+      </div>
+    </section>
+
+    <section class="research-report-section" aria-labelledby="research-report-title">
+      <div class="report-heading">
+        <p class="report-kicker">Documentation</p>
+        <h2 id="research-report-title">Research Report</h2>
+        <p>Read the complete research report in the viewer, open it in a separate tab, or download a copy.</p>
+      </div>
+
+      <div class="report-window">
+        <div class="report-toolbar">
+          <span><i class="fa-regular fa-file-pdf" aria-hidden="true"></i> Euler Research Report</span>
+          <div class="report-actions">
+            <a href="report/Celestial_Motion_Quran_Euler_Paper.pdf" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-up-right-from-square" aria-hidden="true"></i> Open</a>
+            <a href="report/Celestial_Motion_Quran_Euler_Paper.pdf" download="Celestial_Motion_Quran_Euler_Paper.pdf"><i class="fa-solid fa-download" aria-hidden="true"></i> Download</a>
+          </div>
+        </div>
+
+        <object class="report-viewer" data="report/Celestial_Motion_Quran_Euler_Paper.pdf" type="application/pdf" aria-label="Celestial Motion, Quran and Euler research report PDF">
+          <div class="report-fallback">
+            <i class="fa-regular fa-file-pdf" aria-hidden="true"></i>
+            <p>The PDF preview is unavailable in this browser. Use the button below to download the report.</p>
+            <a href="report/Celestial_Motion_Quran_Euler_Paper.pdf" download="Celestial_Motion_Quran_Euler_Paper.pdf">Download report</a>
+          </div>
+        </object>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-container"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="header.js"></script>
+  <script src="orbit.js"></script>
+  <script src="footer.js"></script>
+</body>
+</html>

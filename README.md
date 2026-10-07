@@ -1,4 +1,4 @@
-@'
+
 # Euler Orbit
 
 An interactive, scroll-driven orbital visualization built with HTML, CSS, JavaScript, Canvas and GSAP.
@@ -22,4 +22,4 @@ https://hasibalam.github.io/Euler-orbit/
 Open index.html in a browser for a quick preview.
 
 Internet access is required for CDN dependencies: GSAP and ScrollTrigger 3.12.5, Font Awesome 6.5.2 and Google Fonts.
-'@ | Set-Content -Path README.md -Encoding ascii
+
